@@ -17,7 +17,20 @@ function trans(){
 	fclose($myfile);
 
 }
+
+
+
+
+
+
+
 array_shift($argv);
 $funcName = array_shift($argv);
 
 call_user_func_array($funcName, $argv);
+
+
+//read file
+
+//write file
+
